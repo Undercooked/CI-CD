@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cicd.App", "Cicd.App\Cicd.App.csproj", "{9C307F87-51A9-4E2B-B435-8F7E48AD0AE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3DE623BB-E3CB-4BF3-A327-83FD41E4857F}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cicd.Tests", "Cicd.Tests\Cicd.Tests.csproj", "{F4DE16C1-062E-4FB0-AFA6-1EC418F40B7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C307F87-51A9-4E2B-B435-8F7E48AD0AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C307F87-51A9-4E2B-B435-8F7E48AD0AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C307F87-51A9-4E2B-B435-8F7E48AD0AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C307F87-51A9-4E2B-B435-8F7E48AD0AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4DE16C1-062E-4FB0-AFA6-1EC418F40B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4DE16C1-062E-4FB0-AFA6-1EC418F40B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4DE16C1-062E-4FB0-AFA6-1EC418F40B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4DE16C1-062E-4FB0-AFA6-1EC418F40B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBF0F93D-4783-4A31-8864-68068CC915BB}
+	EndGlobalSection
+EndGlobal
