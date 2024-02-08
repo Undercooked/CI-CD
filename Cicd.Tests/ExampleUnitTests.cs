@@ -1,9 +1,9 @@
 namespace Cicd.Tests;
 
-public class UnitTest1
+public class ExampleUnitTests
 {
     [Fact]
-    public void Test1()
+    public void ExampleUnitTest()
     {
         // A test that always passes if run
     }

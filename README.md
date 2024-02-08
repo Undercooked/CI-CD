@@ -1,2 +1,2 @@
 # CI-CD
-An example project that demonstrates how to implement Continuous Integration and Continuous Deployment.
+An example project that demonstrates how to use multistage docker builds to compile, test and publish and containerize an application, including running integration tests that use docker inside of docker without the use of "Docker in Docker" (dind).
